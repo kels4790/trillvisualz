@@ -1,0 +1,37 @@
+/*typography*/
+h1 {
+    font-family: "manrope";
+    font-weight:bolder;
+}
+/*end typography*/
+
+/*HEADER STYLES*/
+
+/*provides green bg*/
+.highlight {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+
+/*header icons*/
+.center {
+    margin-right: 36px;
+}
+
+/*HEADER COLUMNS*/
+.left {
+    background-color: #bdfe51;
+ ;
+}
+
+.right {
+    background-color: #ababab;
+    height: auto;
+
+}
+
+.borderfeel{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+/*END HEADER STYLE*/
