@@ -1,37 +1,56 @@
+/*highlight color is #bcfe51*/
+
 /*typography*/
 h1 {
     font-family: "manrope";
     font-weight:bolder;
 }
+
+
 /*end typography*/
 
 /*HEADER STYLES*/
 
-/*provides green bg*/
-.highlight {
-    background-color: rgb(255, 255, 255);
+/*icons*/
+ .color:link {
+    color: black;
+}
+
+.color:visited {
+    color: black;
+}
+
+.color:hover {
+    color: #bcfe51;
+
+}
+
+
+
+/*nav*/
+.navbg {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #bcfe51;
+}
+
+/*CONTENT COLUMNS*/
+.imgstyle {
+    max-width: 100%;
     height: auto;
-}
-
-/*header icons*/
-.center {
-    margin-right: 36px;
-}
-
-/*HEADER COLUMNS*/
-.left {
-    background-color: #bdfe51;
- ;
 }
 
 .right {
-    background-color: #ababab;
-    height: auto;
+    background-color: #413D3D;
+}
 
+.height {
+    height: 100%;
 }
 
 .borderfeel{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 /*END HEADER STYLE*/
