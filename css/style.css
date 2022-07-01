@@ -1,19 +1,30 @@
 /*highlight color is #bcfe51*/
 
-/*typography*/
-h1 {
-    font-family: "manrope";
-    font-weight:bolder;
+html {
+   overflow-x: hidden;
 }
 
 
-/*end typography*/
-
 /*HEADER STYLES*/
+header h1 {
+    color: black;
+}
+
+header h6 {
+    color: black;
+}
+
+
+.borderfeel{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 /*icons*/
  .color:link {
     color: black;
+    background-color: transparent;
+    border: none;
 }
 
 .color:visited {
@@ -25,32 +36,105 @@ h1 {
 
 }
 
-
-
 /*nav*/
 .navbg {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
-    font-weight: bolder;
     background-color: #bcfe51;
 }
 
-/*CONTENT COLUMNS*/
-.imgstyle {
-    max-width: 100%;
+.nudge {
+    padding-right: 30px;
+}
+
+.nojustify {
+    justify-content: flex-start;
+}
+/*END HEADER STYLE*/
+
+/*typography*/
+
+h1 {
+    font-family: "manrope";
+    font-weight:bolder;
+}
+
+
+
+p {
+    font-family: "manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hilight {
+    color: #bcfe51;
+}
+/*end typography*/
+
+/*content*/
+
+.block {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+.vertical {
+    flex-direction: column;
+}
+
+.container {
+    height: 100vh;
+}
+
+.imgAccordion {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.imgAccordion:hover {
+    flex-basis:100vw;
     height: auto;
 }
 
-.right {
-    background-color: #413D3D;
+.tv {
+    background-image: url(/img/trillvisualz1.png);
+    background-position-y: 10%;
+    height: 100vh;
 }
 
-.height {
-    height: 100%;
+.tv1 {
+    background-image: url(/img/trillvisualz2.png);
+    background-position-y: 10%;
 }
 
-.borderfeel{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+
+.tv2 {
+    background-image: url(/img/trillvisualz3.png);
+    background-position-y: 10%;
 }
-/*END HEADER STYLE*/
+
+.tv3 {
+    background-image: url(/img/trillvisualz4.png);
+    background-position-y: 10%;
+}
+
+.tv4 {
+    background-image: url(/img/trillvisualz5.png);
+    background-position-y: 10%;
+}
+
+.tv5 {
+    background-image: url(/img/trillvisualz6.png);
+    background-position-y: 10%;
+}
+
+
+
