@@ -96,7 +96,7 @@
                                         <div class = "d-flex flex-column justify-content-center height">
                                             <h2 class="text-nowrap text-center text-md-left mt-sm-5 mt-md-2 pt-sm-4 pt-md-4 mb-2">FOCUSED ON <span style="color: white; background-color: black; padding: 3px 0px;"><br/>THE BIG PICTURE</span></h2>
                                             
-                                            <p class="pl-2 pl-md-1 pr-2 text-center text-md-left">Hey I'm Jaeshun, I’ve been into cameras since I was a kid. Growing up I'd record & record take photo anything. I created Trill Visualz to get your biggest moments on film & make memories that last "fa-eva, eva."</p>
+                                            <p class="pl-2 pl-md-1 pr-2 text-center text-md-left">Hey I'm Jaeshun, I’ve been into cameras since I was a kid. Growing up I'd record & take photos of pretty much ANYTHING. I created Trill Visualz to get your biggest moments on film & make memories you can keep "fa-eva, eva."</p>
                                         
                                             <a class="color" href="#nextRow"><i class="fa fa-arrow-down fa-2x text-center text-lg-left d-none d-sm-block d-md-none d-lg-block type="button" data-toggle="tooltip" data-placement="top" title="More Trill Shots Below"></i></a>
                                          </div>                                
@@ -156,7 +156,7 @@
                                         </div>
 
                                         <div class="modal-body">
-                                            <form action="contact.php" method="post">
+                                            <form>
                                                 <p>Ready to to see your vision on film? Fill out the form below. It only takes a few pieces of info for a Trill Visualz session. </p>
                                                 <div class="form-group">
                                                     <label class="col pl-0" for="name">Name: </label>
@@ -297,57 +297,100 @@
                                     <div class="col imgAccordion tv5"></div>
                         </div> 
                     </div>
-                    <div class="row">
-                        
-                            <form id="contact">
-                                <div class="row d-flex ml-1 mr-1 pt-3 block1">
-                                    <div class="col-12 col-sm">
-                                        <div class="d-flex justify-content-center align-items-center">
-                                            <i class="text-center fa fa-keyboard fa-4x"></i>
-                                        </div>
-
+                    <div class="row pl-1 pr-1">
+                        <h1 class="mx-auto mt-2 mb-2 block text-light p-3">KEEP IT TRILL.</h1>
+                            <div id="contact" class="d-flex flex-column col-12 pl-0 pr-0">
+                                
+                                    <div class="d-flex flex-column flex-sm-row">        
+                                        <div class="col-sm-4 block1 pb-2 pt-2 mb-1 mb-sm-0 ">
+                                            <div class="d-flex justify-content-center">
+                                                <i class="fa fa-keyboard fa-4x"></i>
+                                            </div>
                                     
-                                            <h4 class="text-center">STEP 1: CONTACT ME </h4>
-                                            <p class="text-center pl-2 pr-2">Talk to me. Whether you're ready to shoot or want to talk more about working together, reach out to me. Just use the contact form. Pleae allow at least 24 hours for response. </p>        
-
                                     
-                                    </div>
-                                    <div class="col-12  col-sm">
-                                        <div class="d-flex justify-content-center align-items-center">
-                                            <i id="spin" class="fa fa-arrows-rotate fa-4x"></i>
+                                            <h4 class="text-center">CONTACT ME </h4>
+                                            <p class="text-center pl-2 pr-2">Whether you're ready to shoot or want to talk more about working together, reach out to me using the contact form. Pleae allow at least 24 hours for reply. </p>        
+                                    
                                         </div>
-                                        <h4 class="text-center">STEP 2: LET'S LINK</h4>
-                                        <p class="text-center pl-2 pr-2">Let's take some time to fully realize your vision. Whether in person, via Zoom, or Skype, taking time to discuss and clearly outline your ideas is the key to Trill Visualz.</p>   
+
+                                        <div class="col block1 pb-2 pt-2 mb-1 mb-sm-0 ml-sm-1 mr-sm-1">
+                                            <div class="d-flex justify-content-center">
+                                                <i class="fa fa-arrows-rotate fa-4x "></i>
+                                            </div>
+                                    
+                                            <h4 class="text-center">LET'S LINK</h4>
+                                            <p class="text-center pl-2 pr-2">Let's fully realize your vision. Whether in person, or over Zoom taking time to discuss and clearly outline your ideas is the key to Trill Visualz.</p>   
+                                        </div>
+
+                                        <div class="col block1 pb-2 pt-2 mr-sm-0">
+                                            <div class="d-flex justify-content-center">
+                                                <i class="fa fa-film fa-4x"></i>
+                                            </div>
+                                    
+                                            <h4 class="text-center">LET'S CREATE </h4>
+                                            <p class="text-center pl-2 pr-2">This is where we meet, but this time to give life to your ideas. All media taken is professionally edited before it's returned to you. 
+                                        </div>
                                     </div>
 
-                                    <div class="col-12 col-sm">
-                                        <div class="d-flex justify-content-center align-items-center">
-                                            <i class="fa fa-film fa-4x"></i>
+                                <div class= "pt-3 order-first order-sm-last ">
+
+                                    <form>
+                                        <div class="form-group">
+                                            <div class="col">
+                                                <label class="col pl-0" for="name">Name: </label>
+                                                <input type="text" class="form-conrtol col-12" id="name" name="client_name" aria-describedby="name" placeholder="Enter Your Name" />
+                                            </div>
+
                                         </div>
-                                        <h4 class="text-center">STEP 3: LET'S CREATE </h4>
-                                        <p class="text-center pl-2 pr-2">This is where we meet, but this time to give life to your ideas. All sessions are shot using the latest camera and lighting equipment. Final product is ready after editing is complete. </p>   
-                                    </div>
+
+                                        <div class="form-group">
+                                            <div class="col">
+                                                <label class="col pl-0" for="email">Email Adress: </label>
+                                                <input type="email" class="form-conrtol col-12" id="email" name="client_email" aria-describedby="email" placeholder="Enter Your Email" />
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col">
+                                                <label class="col pl-0" for="phoNum">Phone Number: </label>
+                                                <input type="tel" class="form-conrtol col-12" id="phoNum" name="client_phone "aria-describedby="email" placeholder="Enter Your Phone Number" />
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group pt-1">
+                                            <div class="col">
+                                                <label class="col pl-0" for="textInfo">Tell Trill Visualz about your vision for your camera session, ask questions, leave comments, etc.</label>
+                                                <textarea class="form-control" id="textInfo" name="client_feedback" placeholder="Your Text Here"></textarea>
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+                                                                        
                                 </div>
-                            
-                            </form>
-
-                       
+                        
+                                    
+                            </div>
                     </div>
                 </div>
+              
             </div>  
+            <footer class="block d-flex flex-column">
+                <p class="mb-0 pb-1 pt-2 text-light text-center">ALL MEDIA ON THIS SITE IS THE SOLE PROPERTY OF TRILL VISUALZ</p>    
+                <p class="mb-0 pb-2 pt-1 text-light text-center">SITE DESIGNED BY LESLIE HARRIS</p>
+            </footer>
                         <!--start bootstrap script tags-->
                         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
                         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
                         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
                         <script src="js/scripts.js"></script>
                             <!--end bootstrap script tags-->
-            
-                          
+                           
+                      
     </body>                                  
 
 </html>
 
-
-<!--<div class="col">
-   Trill Visualz was created to show Detroit at its best! Using the latest equipment &lpar;right now a Canon T5i DSLR camera&rpar;, Trill Visualz gets your biggest moments on film and turns them into memories you can keep "fa-eva, eva."
-</div>-->
